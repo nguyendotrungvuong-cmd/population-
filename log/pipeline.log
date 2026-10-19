@@ -362,3 +362,28 @@ ValueError: Data rỗng hoặc tên quốc gia không phù hợp
 19:37:13 | INFO | Load thành công: data/final/china.csv → project-b5a4ab17-113a-462e-812.population_lab.china
 19:37:13 | INFO | Đã load lên bigquery thành công
 19:37:13 | INFO | Pipeline đã xử lý thành công!
+19:53:23 | INFO | new_json
+19:53:23 | INFO | Đang lấy dữ liệu
+19:53:23 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+19:53:25 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+19:53:25 | DEBUG | Đang kiểm tra data contract
+19:53:25 | INFO | Đã lưu CSV
+19:53:25 | INFO | Đã pass
+19:53:25 | INFO | Đã lưu CSV vào staging
+19:53:25 | INFO | Đã xử lý và lưu vào final
+19:53:25 | DEBUG | Checking '' for explicit credentials as part of auth process...
+19:53:25 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+19:53:30 | DEBUG | Checking '' for explicit credentials as part of auth process...
+19:53:30 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+19:53:33 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+19:53:33 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+19:53:33 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+19:53:33 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+19:53:35 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+19:53:37 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU81FvVugBPD3_r0RLrL2QB5zbUIr3uvfnlK7prAnrCBLHXrq0tNeTjrHKY8PVC8oSNZm25wboKEI1rpQkYzIX-RNgqWQXsHR278XesXtXw4 HTTP/1.1" 200 1128
+19:53:38 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/21c7687f-a9ce-45e2-a00e-564c1854d8db?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:53:38 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/21c7687f-a9ce-45e2-a00e-564c1854d8db?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:53:40 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/21c7687f-a9ce-45e2-a00e-564c1854d8db?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:53:40 | INFO | Load thành công: data/final/vietnam.csv → project-b5a4ab17-113a-462e-812.population_lab.vietnam
+19:53:40 | INFO | Đã load lên bigquery thành công
+19:53:40 | INFO | Pipeline đã xử lý thành công!
