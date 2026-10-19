@@ -1,0 +1,364 @@
+12:47:01 | INFO | new_json
+12:47:01 | INFO | Đang lấy dữ liệu
+12:47:01 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+12:47:02 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=indiaaaaaasdaaaaaaaaaaasdasdasd HTTP/1.1" 200 2
+12:47:02 | DEBUG | Đang kiểm tra data contract
+12:47:02 | ERROR | Lỗi khi parse dữ liệu
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population/src/parse_data.py", line 6, in parse_data
+    raise ValueError("Data rỗng hoặc tên quốc gia không phù hợp")
+ValueError: Data rỗng hoặc tên quốc gia không phù hợp
+12:47:02 | ERROR | Thất bại:
+12:47:29 | INFO | new_json
+12:47:29 | INFO | Đang lấy dữ liệu
+12:47:29 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+12:47:30 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+12:47:30 | DEBUG | Đang kiểm tra data contract
+12:47:30 | INFO | Đã lưu CSV
+12:47:30 | INFO | Đã pass
+12:47:30 | INFO | Đã lưu CSV
+12:47:39 | INFO | new_json
+12:47:39 | INFO | Đang lấy dữ liệu
+12:47:39 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+12:47:40 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=italia HTTP/1.1" 200 6798
+12:47:40 | DEBUG | Đang kiểm tra data contract
+12:47:40 | INFO | Đã lưu CSV
+12:47:40 | INFO | Đã pass
+12:47:40 | INFO | Đã lưu CSV
+13:12:42 | INFO | new_json
+13:12:42 | INFO | Đang lấy dữ liệu
+13:12:42 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:12:43 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+13:12:43 | DEBUG | Đang kiểm tra data contract
+13:12:43 | INFO | Đã lưu CSV
+13:12:43 | INFO | Đã pass
+13:12:43 | INFO | Đã lưu CSV
+13:15:14 | INFO | new_json
+13:15:14 | INFO | Đang lấy dữ liệu
+13:15:14 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:15:16 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+13:15:16 | DEBUG | Đang kiểm tra data contract
+13:15:16 | INFO | Đã lưu CSV
+13:15:16 | INFO | Đã pass
+13:15:16 | INFO | Đã lưu CSV
+13:15:16 | ERROR | Thất bại:
+13:16:40 | INFO | new_json
+13:16:40 | INFO | Đang lấy dữ liệu
+13:16:40 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:16:41 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+13:16:41 | DEBUG | Đang kiểm tra data contract
+13:16:41 | INFO | Đã lưu CSV
+13:16:41 | INFO | Đã pass
+13:16:41 | INFO | Đã lưu CSV
+13:16:41 | ERROR | Thất bại:
+13:17:30 | INFO | new_json
+13:17:30 | INFO | Đang lấy dữ liệu
+13:17:30 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:17:31 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+13:17:31 | DEBUG | Đang kiểm tra data contract
+13:17:31 | INFO | Đã lưu CSV
+13:17:31 | INFO | Đã pass
+13:17:31 | INFO | Đã lưu CSV
+13:18:54 | INFO | new_json
+13:18:54 | INFO | Đang lấy dữ liệu
+13:18:54 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:18:55 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+13:18:55 | DEBUG | Đang kiểm tra data contract
+13:18:55 | INFO | Đã lưu CSV
+13:18:55 | INFO | Đã pass
+13:18:55 | INFO | Đã lưu CSV
+13:19:01 | INFO | new_json
+13:19:01 | INFO | Đang lấy dữ liệu
+13:19:01 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:19:02 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=china HTTP/1.1" 200 6948
+13:19:02 | DEBUG | Đang kiểm tra data contract
+13:19:02 | INFO | Đã lưu CSV
+13:19:02 | INFO | Đã pass
+13:19:02 | INFO | Đã lưu CSV
+13:20:37 | INFO | new_json
+13:20:37 | INFO | Đang lấy dữ liệu
+13:20:37 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:20:38 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=china HTTP/1.1" 200 6948
+13:20:38 | DEBUG | Đang kiểm tra data contract
+13:20:38 | INFO | Đã lưu CSV
+13:20:38 | INFO | Đã pass
+13:20:38 | INFO | Đã lưu CSV vào staging
+13:20:38 | INFO | Đã xử lý và lưu vào final
+13:20:41 | INFO | new_json
+13:20:41 | INFO | Đang lấy dữ liệu
+13:20:41 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:20:42 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=chinaa HTTP/1.1" 200 2
+13:20:42 | DEBUG | Đang kiểm tra data contract
+13:20:42 | ERROR | Lỗi khi parse dữ liệu
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population/src/parse_data.py", line 6, in parse_data
+    raise ValueError("Data rỗng hoặc tên quốc gia không phù hợp")
+ValueError: Data rỗng hoặc tên quốc gia không phù hợp
+13:20:42 | ERROR | Thất bại:<class 'Exception'>
+13:24:07 | INFO | new_json
+13:24:07 | INFO | Đang lấy dữ liệu
+13:24:07 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:24:08 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=china HTTP/1.1" 200 6948
+13:24:08 | DEBUG | Đang kiểm tra data contract
+13:24:08 | INFO | Đã lưu CSV
+13:24:08 | INFO | Đã pass
+13:24:08 | INFO | Đã lưu CSV vào staging
+13:24:08 | ERROR | Thất bại:<class 'Exception'>
+13:24:40 | INFO | new_json
+13:24:40 | INFO | Đang lấy dữ liệu
+13:24:40 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:24:41 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=china HTTP/1.1" 200 6948
+13:24:41 | DEBUG | Đang kiểm tra data contract
+13:24:41 | INFO | Đã lưu CSV
+13:24:41 | INFO | Đã pass
+13:24:41 | INFO | Đã lưu CSV vào staging
+13:24:41 | INFO | Đã xử lý và lưu vào final
+13:46:31 | INFO | new_json
+13:46:31 | INFO | Đang lấy dữ liệu
+13:46:31 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:46:33 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=japan HTTP/1.1" 200 6834
+13:46:33 | DEBUG | Đang kiểm tra data contract
+13:46:33 | INFO | Đã lưu CSV
+13:46:33 | INFO | Đã pass
+13:46:33 | INFO | Đã lưu CSV vào staging
+13:46:33 | INFO | Đã xử lý và lưu vào final
+13:46:33 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:46:33 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:46:37 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:46:37 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:46:40 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+13:46:40 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+13:46:40 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+13:46:40 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+13:46:42 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+13:46:44 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU83OY1hAOWsSF4X1WvROcKxLNwL84cnv7T6-cXKhk6vUuguCfLnVtr56nSZQb0zmJMn1VQzEZDfYVRsiPzc-8baHakQbDza3iNs_6KNlJDo HTTP/1.1" 200 1124
+13:46:45 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/0a4feef0-b351-464c-9f59-eb92465a714c?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:46:46 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/0a4feef0-b351-464c-9f59-eb92465a714c?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:46:46 | INFO | Đã load lên bigquery thành công
+13:48:34 | INFO | new_json
+13:48:34 | INFO | Đang lấy dữ liệu
+13:48:34 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:48:36 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=japan HTTP/1.1" 200 6834
+13:48:36 | DEBUG | Đang kiểm tra data contract
+13:48:36 | INFO | Đã lưu CSV
+13:48:36 | INFO | Đã pass
+13:48:36 | INFO | Đã lưu CSV vào staging
+13:48:36 | INFO | Đã xử lý và lưu vào final
+13:48:36 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:48:36 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:48:38 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:48:38 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:48:39 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+13:48:39 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+13:48:39 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+13:48:39 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+13:48:41 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+13:48:43 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU82NnMhcgXxGv4DUUiZp1VRwecmhNEtoA04GuB9rAu48tt5F2P0esAduYPn4EH8ndXB_0A_kxOhT_PCvyAvUZ_Bmn9uPygqOjzR6HQ2jELY HTTP/1.1" 200 1124
+13:48:44 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/369cfda3-40dc-43d3-85e7-88f6124c1c63?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:48:44 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/369cfda3-40dc-43d3-85e7-88f6124c1c63?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:48:46 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/369cfda3-40dc-43d3-85e7-88f6124c1c63?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:48:46 | INFO | Load thành công: data/final/japan.csv → project-b5a4ab17-113a-462e-812.population_lab.japan
+13:48:46 | INFO | Đã load lên bigquery thành công
+13:49:29 | INFO | new_json
+13:49:29 | INFO | Đang lấy dữ liệu
+13:49:29 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:49:30 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=japan HTTP/1.1" 200 6834
+13:49:30 | DEBUG | Đang kiểm tra data contract
+13:49:30 | INFO | Đã lưu CSV
+13:49:30 | INFO | Đã pass
+13:49:30 | INFO | Đã lưu CSV vào staging
+13:49:30 | INFO | Đã xử lý và lưu vào final
+13:49:30 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:49:30 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:49:31 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:49:31 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:49:33 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+13:49:33 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+13:49:33 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+13:49:33 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+13:49:34 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+13:49:37 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU80W_D1t3jD-m31CYYgFEwSSrI10Fj65d7nb89WHefPsa_yfvl8B0dO49KFmbABHeyNvzAbbaaogB-RYRXxiVMs4Bng8KAMoTU8OYHQcKtg HTTP/1.1" 200 1124
+13:49:37 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/86cd91d3-0092-4b21-b117-b7e76234f8aa?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:49:38 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/86cd91d3-0092-4b21-b117-b7e76234f8aa?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:49:38 | INFO | Load thành công: data/final/japan.csv → project-b5a4ab17-113a-462e-812.population_lab.japan
+13:49:38 | INFO | Đã load lên bigquery thành công
+13:49:38 | INFO | Pipeline đã xử lý thành công!
+13:57:11 | INFO | new_json
+13:57:11 | INFO | Đang lấy dữ liệu
+13:57:11 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+13:57:13 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+13:57:13 | DEBUG | Đang kiểm tra data contract
+13:57:13 | INFO | Đã lưu CSV
+13:57:13 | INFO | Đã pass
+13:57:13 | INFO | Đã lưu CSV vào staging
+13:57:13 | INFO | Đã xử lý và lưu vào final
+13:57:13 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:57:13 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:57:17 | DEBUG | Checking '' for explicit credentials as part of auth process...
+13:57:17 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+13:57:18 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+13:57:18 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+13:57:18 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+13:57:18 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+13:57:19 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+13:57:22 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU80HbRyWt2hra8iFKfBIOIH8ZKOHYgTvBfheJvt633YYkjJwEBfWutXcPEpo5hOt3pZnGORDd7NdyTzExsvwXIeG8-SzGBTXFsL8ggp1Ig HTTP/1.1" 200 1126
+13:57:22 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/02371f2b-d4b9-425e-86eb-ae76f0c653b3?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+13:57:22 | ERROR | Thất bại:<class 'Exception'>
+14:04:06 | INFO | new_json
+14:04:06 | INFO | Đang lấy dữ liệu
+14:04:06 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+14:04:07 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+14:04:07 | DEBUG | Đang kiểm tra data contract
+14:04:07 | INFO | Đã lưu CSV
+14:04:07 | INFO | Đã pass
+14:04:07 | INFO | Đã lưu CSV vào staging
+14:04:07 | INFO | Đã xử lý và lưu vào final
+14:04:07 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:04:07 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:04:11 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:04:11 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:04:13 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+14:04:13 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+14:04:13 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+14:04:13 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+14:04:14 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+14:04:17 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU83QXmz9vfYHa6-E_QRG6f7ufS_B6p27RQQmxWb4k0weIyBdaAOhOiQeoaidD_e_PrXxIqlsBz55d3lQmNskkH7gO9OIRMsawrQKT8Dw0w HTTP/1.1" 200 1126
+14:04:17 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/54ff705a-e632-4a04-a0aa-07529a69cce6?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:04:17 | ERROR | Thất bại:<class 'Exception'>
+14:05:47 | INFO | new_json
+14:05:47 | INFO | Đang lấy dữ liệu
+14:05:47 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+14:05:48 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+14:05:48 | DEBUG | Đang kiểm tra data contract
+14:05:48 | INFO | Đã lưu CSV
+14:05:48 | INFO | Đã pass
+14:05:48 | INFO | Đã lưu CSV vào staging
+14:05:48 | INFO | Đã xử lý và lưu vào final
+14:05:48 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:05:48 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:05:49 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:05:49 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:05:51 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+14:05:51 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+14:05:51 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+14:05:51 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+14:05:52 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+14:05:55 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU83PEgCTxMjysYDzLLqx3aMUSR1XUOMSEwHy3BfHPdIkz-5nnjMAWusz96g3Dc7QmNT1iY4X6Mx0j9mu35QMN_46rnjmax5dBlsaIksRCw HTTP/1.1" 200 1126
+14:05:55 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/f983481a-0904-46bc-9924-7e7ae92b70ef?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:05:55 | ERROR | Thất bại:<class 'Exception'>
+14:06:59 | INFO | new_json
+14:06:59 | INFO | Đang lấy dữ liệu
+14:06:59 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+14:07:00 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+14:07:00 | DEBUG | Đang kiểm tra data contract
+14:07:00 | INFO | Đã lưu CSV
+14:07:00 | INFO | Đã pass
+14:07:00 | INFO | Đã lưu CSV vào staging
+14:07:00 | INFO | Đã xử lý và lưu vào final
+14:07:00 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:07:00 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:07:01 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:07:01 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:07:03 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+14:07:03 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+14:07:03 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+14:07:03 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+14:07:04 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+14:07:07 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU81jYkYN2dBVd0_n5Ceciz_XIxNsj8l7jBYjgbuZnDvwD5AIn7Gc3GpYVF5EjlEBMht8xZu53rX8ocugyaAU3m_quFjM63aOc74F9Ou5fA HTTP/1.1" 200 1126
+14:07:07 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/4b4cf007-7b9a-4ce7-bfdb-34efc3a58964?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:07:07 | ERROR | Thất bại:
+14:09:43 | INFO | new_json
+14:09:43 | INFO | Đang lấy dữ liệu
+14:09:43 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+14:09:44 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+14:09:44 | DEBUG | Đang kiểm tra data contract
+14:09:44 | INFO | Đã lưu CSV
+14:09:44 | INFO | Đã pass
+14:09:44 | INFO | Đã lưu CSV vào staging
+14:09:44 | INFO | Đã xử lý và lưu vào final
+14:09:44 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:09:44 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:09:46 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:09:46 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:09:47 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+14:09:47 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+14:09:47 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+14:09:47 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+14:09:48 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+14:09:51 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU825s-rhnjRLXsO_0e2QxXE96ZYmtIFeZ8GSyNA98WUW8btE8Gdowe6BDCXIyG-xrWo9bBVF2ULeH-ESD96C-pSin-_YDSP6GiD5H5p9Bw HTTP/1.1" 200 1129
+14:09:51 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/4a247f21-daeb-49e8-bdba-bc112a1bc5d3?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:09:51 | ERROR | Thất bại:
+14:14:11 | INFO | new_json
+14:14:11 | INFO | Đang lấy dữ liệu
+14:14:11 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+14:14:12 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+14:14:12 | DEBUG | Đang kiểm tra data contract
+14:14:12 | INFO | Đã lưu CSV
+14:14:12 | INFO | Đã pass
+14:14:12 | INFO | Đã lưu CSV vào staging
+14:14:12 | INFO | Đã xử lý và lưu vào final
+14:14:12 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:14:12 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:14:14 | DEBUG | Checking '' for explicit credentials as part of auth process...
+14:14:14 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+14:14:15 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+14:14:15 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+14:14:15 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+14:14:15 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+14:14:16 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+14:14:19 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU80xVLeCHL5zD8fS2azNNzj2gpua2VhqrJKv2cekYuoBSmfdSPrM8BL00hgR5rdq5WltUpfdKggwVKjcLXBG94Wuebr0uRn05GTjHN1CAQ HTTP/1.1" 200 1128
+14:14:19 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/37d9d76f-5240-4a26-9210-a5fdc4c50223?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:14:20 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/37d9d76f-5240-4a26-9210-a5fdc4c50223?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:14:21 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/37d9d76f-5240-4a26-9210-a5fdc4c50223?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+14:14:21 | INFO | Load thành công: data/final/vietnam.csv → project-b5a4ab17-113a-462e-812.population_lab.vietnam
+14:14:21 | INFO | Đã load lên bigquery thành công
+14:14:21 | INFO | Pipeline đã xử lý thành công!
+19:36:24 | INFO | new_json
+19:36:24 | INFO | Đang lấy dữ liệu
+19:36:24 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+19:36:26 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+19:36:26 | DEBUG | Đang kiểm tra data contract
+19:36:26 | INFO | Đã lưu CSV
+19:36:26 | INFO | Đã pass
+19:36:26 | INFO | Đã lưu CSV vào staging
+19:36:27 | INFO | Đã xử lý và lưu vào final
+19:36:27 | DEBUG | Checking '' for explicit credentials as part of auth process...
+19:36:27 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+19:36:34 | DEBUG | Checking '' for explicit credentials as part of auth process...
+19:36:34 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+19:36:37 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+19:36:37 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+19:36:37 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+19:36:37 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+19:36:39 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+19:36:41 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU81T_mEoOyMBV045zdJ6spWUrfJ3b7c_MFieNv3KycpQh591O5s4GLMCx7Ww0obqcRHseSiYo5K2aRl2YIrRI2RLG5kDHXKSIEcIXJCpVFo HTTP/1.1" 200 1128
+19:36:42 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/ef193d87-ba01-485c-8be0-0f735bae2f71?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:36:43 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/ef193d87-ba01-485c-8be0-0f735bae2f71?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:36:43 | INFO | Load thành công: data/final/vietnam.csv → project-b5a4ab17-113a-462e-812.population_lab.vietnam
+19:36:43 | INFO | Đã load lên bigquery thành công
+19:36:43 | INFO | Pipeline đã xử lý thành công!
+19:37:00 | INFO | new_json
+19:37:00 | INFO | Đang lấy dữ liệu
+19:37:00 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+19:37:01 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=china HTTP/1.1" 200 6948
+19:37:01 | DEBUG | Đang kiểm tra data contract
+19:37:01 | INFO | Đã lưu CSV
+19:37:01 | INFO | Đã pass
+19:37:01 | INFO | Đã lưu CSV vào staging
+19:37:01 | INFO | Đã xử lý và lưu vào final
+19:37:01 | DEBUG | Checking '' for explicit credentials as part of auth process...
+19:37:01 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+19:37:03 | DEBUG | Checking '' for explicit credentials as part of auth process...
+19:37:03 | DEBUG | Checking Cloud SDK credentials as part of auth process...
+19:37:05 | DEBUG | Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+19:37:05 | DEBUG | Starting new HTTPS connection (1): oauth2.googleapis.com:443
+19:37:05 | DEBUG | https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+19:37:05 | DEBUG | Starting new HTTPS connection (1): bigquery.googleapis.com:443
+19:37:07 | DEBUG | https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable HTTP/1.1" 200 0
+19:37:10 | DEBUG | https://bigquery.googleapis.com:443 "PUT /upload/bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs?uploadType=resumable&upload_id=AP6rU83jQhIsLS0vkviL-VONRzeEyGYBmtr7mM0T-UCU4zf5e7t_ArcUPq2cQuJqNfMsxBKuokmlJ2AU_hr1HQuTbDvtuRf_4lyuPgqATDQQmo4 HTTP/1.1" 200 1126
+19:37:10 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/a9862847-75bb-43db-bb52-fe4cb3943898?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:37:11 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/a9862847-75bb-43db-bb52-fe4cb3943898?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:37:13 | DEBUG | https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/project-b5a4ab17-113a-462e-812/jobs/a9862847-75bb-43db-bb52-fe4cb3943898?projection=full&location=US&prettyPrint=false HTTP/1.1" 200 None
+19:37:13 | INFO | Load thành công: data/final/china.csv → project-b5a4ab17-113a-462e-812.population_lab.china
+19:37:13 | INFO | Đã load lên bigquery thành công
+19:37:13 | INFO | Pipeline đã xử lý thành công!
